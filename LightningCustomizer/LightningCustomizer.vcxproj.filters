@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="SDK.cpp" />
+    <ClCompile Include="unreal\FName.cpp">
+      <Filter>unreal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="unreal\FName.h">
+      <Filter>unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="unreal\UObject.h">
+      <Filter>unreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="unreal">
+      <UniqueIdentifier>{c6f530ff-171a-470e-8bb5-72d74ff67e9f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
